@@ -21,8 +21,8 @@ monuments.push({
   heightInMeters: 20
 });
 
-function compareMonumentHeights(a: Monument, b: Monument) {
-  let compareResult = 0;
+function compareMonumentHeights(a: Monument, b: Monument): number {
+  let compareResult: number = 0;
 
   if (a.heightInMeters > b.heightInMeters) {
     compareResult = -1;
