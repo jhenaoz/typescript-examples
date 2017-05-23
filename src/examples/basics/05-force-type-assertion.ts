@@ -4,4 +4,3 @@ let street: string = 'Avenue Road';
 // Works
 const bedrooms: number = <number> <any> street;
 console.log(name);
-

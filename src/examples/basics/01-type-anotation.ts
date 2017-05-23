@@ -1,19 +1,20 @@
 // primitive type annotation
-var firstName: string = 'Steve';
-var heightInCentimeters: number = 182.88; 
-var isActive: boolean = true;
+const firstName: string = 'Steve';
+const heightInCentimeters: number = 182.88;
+const isActive: boolean = true;
 
 // array type annotation
-var names: string[] = ['James', 'Nick', 'Rebecca', 'Lily'];
+const names: string[] = ['James', 'Nick', 'Rebecca', 'Lily'];
 
 // function annotation with parameter type annotation and return type annotation var sayHello: (name: string) => string;
 // implementation of sayHello function
-var sayHello = function (name: string) {
+const sayHello = (name: string) => {
     return 'Hello ' + name;
 };
 
 // object type annotation
-var person: { name: string; heightInCentimeters: number; };
+let person: { name: string; heightInCentimeters: number; };
+
 // Implementation of a person object
 person = {
   name: 'Mark',
@@ -27,8 +28,9 @@ interface Person {
 }
 
 // tried interchange of otherPerson -> person
-const otherPerson: Person = { 
+const otherPerson: Person = {
   name: 'Mark',
-  heightInCentimeters: 183
-}
+  heightInCentimeters: 185
+};
+
 console.log(otherPerson);
