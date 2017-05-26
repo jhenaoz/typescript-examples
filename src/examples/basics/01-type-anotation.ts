@@ -8,7 +8,7 @@ const names: string[] = ['James', 'Nick', 'Rebecca', 'Lily'];
 
 // function annotation with parameter type annotation and return type annotation var sayHello: (name: string) => string;
 // implementation of sayHello function
-const sayHello = (name: string) => {
+const sayHello = (name: string): string => {
     return 'Hello ' + name;
 };
 

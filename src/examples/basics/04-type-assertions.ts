@@ -15,7 +15,7 @@ const avenueRoad: House = {
 };
 
 // Errors: Cannot convert House to Mansion
-const mansion: Mansion = avenueRoad;
+// const mansion: Mansion = avenueRoad;
 
 // Works
 // const mansionConvert: Mansion = <Mansion> avenueRoad;  // Tslint error: "no-angle-bracket-type-assertion": false
