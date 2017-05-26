@@ -1,12 +1,12 @@
 # typescript-examples
 
-pre requirements
+## Pre requirements
 - Install NodeJs ([https://nodejs.org])
 
-How execute it
+## Install and transpiled
+- npm install && tsc
+
+## How execute a specify example
 
 Execute the next comands on a console:
-
-1. npm install
-2. tsc
-3. node dist/src/examples/[basics | advances]/[fileName.js]
+- node dist/src/examples/[basics | advances]/[fileName.js]
