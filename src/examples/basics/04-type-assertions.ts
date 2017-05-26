@@ -10,8 +10,8 @@ interface Mansion {
 }
 
 const avenueRoad: House = {
-  bedrooms: 11,
-  bathrooms: 10
+  bedrooms: 3,
+  bathrooms: 2
 };
 
 // Errors: Cannot convert House to Mansion
